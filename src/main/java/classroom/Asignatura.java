@@ -12,12 +12,12 @@ public class Asignatura {
         this("Sin nombre", Tipo.FUNDAMENTACION);
     }
 
-    Asignatura(int codigoInterno,Tipo tipo) {
+    Asignatura(Tipo tipo, int codigoInterno) {
         this("Sin nombre", codigoInterno, 0, tipo);
     }
 
     Asignatura(int codigoExterno,Tipo tipo) {
-        this("Sin nombre", codigoExterno, 0, tipo);
+        this("Sin nombre", 0, codigoExterno, tipo);
     }
 
     Asignatura(String nombre, Tipo tipo) {

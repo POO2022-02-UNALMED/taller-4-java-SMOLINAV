@@ -10,6 +10,6 @@ public enum Tipo {
 		this.nombre = nombre;
 	}
 	Tipo(int codigo) {
-		this.codigo = codigo
+		this.codigo = codigo;
 	}
 }
